@@ -105,3 +105,13 @@ print(t)
 a="seyam"
 t=type(a)
 print(t)
+b=31.2
+t=type(b)
+print(t)
+
+#-------------------------input function-------------------------------
+a=input("enter number 1 :")
+b=input ("enter number 2 : ")
+
+print("number is :" , a)
+print("number is: " ,b)
