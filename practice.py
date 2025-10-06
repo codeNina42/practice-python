@@ -196,7 +196,40 @@ print("reverse:", fruits)
 
 copy_fruits = fruits.copy()      # copy list
 print("copy:", copy_fruits)
+a=(1,2,3,4,5)
+
+i=a.index(3)
+print(i)
+#count the how many times the the valur arrive in this tuples
+y=a.count(2)
+print(y)
+#concatination
+a=(2,3)
+b=(4,5)
+c=a+b
+print(c)#concatination
+t = (5, 6)#appeared time
+print(t * 3)
+#is this number in the touple?
+t = (1, 2, 3)
+print(2 in t)
+print(5 not in t)
+
+t = ('a', 'b', 'c', 'd')
+print(len(t))
+nums = (5, 10, 15, 20)
+print(max(nums))
+print(min(nums))
+print(sum(nums))
+lst = [1, 2, 3]
+tup = tuple(lst)
+print(tup)
+
+new_list = list(tup)
+print(new_list)
+
 
 fruits.clear()                   # clear all items
 print("clear:", fruits)
+
 
